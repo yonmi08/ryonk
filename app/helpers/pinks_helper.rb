@@ -1,0 +1,2 @@
+module PinksHelper
+end
