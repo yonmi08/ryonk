@@ -1,3 +1,204 @@
-// Place all the styles related to the pinks controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+  background: url('images/01floyd-hi_hrthumb.jpg') fixed;
+  background-size: cover;
+}
+
+.header {
+  padding: 170px 30px 80px;
+  height: 100vh;
+  /* background-color: #b36b82; */
+  opacity: 0.8;
+}
+
+.site-title-sub {
+  margin: 0 0 30px;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+.site-title {
+  margin: 50px;
+  font-size: 4.5rem;
+}
+
+.site-description{
+  margin-bottom: 50px;
+  /* color: #806161; */
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.button01 {
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  margin-left: 27px;
+  margin-right: 27px;
+  border-radius: 4px;
+  background-color: #afa58d;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  /* font-size: 0.7rem; */
+}
+
+
+.button {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 27px;
+  margin-right: 27px;
+  border-radius: 4px;
+  background-color: #afa58d;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  /* font-size: 0.7rem; */
+}
+
+
+.button:hover {
+  opacity: 0.9;
+  
+}
+
+.button-orange {
+  background-color: #e68aa8;
+
+}
+
+.about {
+  height: 100vh;
+  padding: 80px 30px;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.about-text {
+  width: 600px;
+  margin: 30px auto;
+  line-height: 2.5;
+  text-align: left;
+  padding-left: 90px;
+}
+
+.heading {
+  display: inline-block;
+  margin: 30px 0 15px;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+  font-size: 4rem;
+  border-bottom: double 4px #999;
+}
+
+.works {
+  height: 100vh;
+  background-color: #383634;
+  padding: 80px 0 10px;
+}
+
+.works-wrapper {
+  display: table;
+  width: 860px;
+  margin: 25px auto 0;
+  table-layout: fixed;
+}
+
+.work-box {
+  display: table-cell;
+  background-color: rgba(100, 100, 100, 0.3);
+  border: 1px solid #333;
+}
+
+.work-image {
+  display: black;
+  width: 54%;
+  height: 130px;
+  margin-top: 12px;
+}
+
+.work-description {
+  margin: 20px 0 0 0;
+  height: 65px;
+}
+
+.work-description .bottom {
+  width: 60%;
+  margin-top: 20px;
+  padding: 3px;
+  display: inline-block;
+}
+
+.button-ghost {
+  border: 2px solid #fff;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.contact {
+  height: 100vh;
+  padding: 80px 0 150px;
+  background-color: #b36b82;
+  opacity: 0.7;
+}
+
+// .contact-form {
+//   width: 50%;
+//   margin: 50px auto 0;
+//   margin-top: 140px;
+// }
+
+// .contact-form input[type=text], .contact-form textarea {
+//   display: block;
+//   width: 100%;
+//   margin-bottom: 10px;
+//   padding: 15px;
+//   outline: none;
+//   border: 1px solid rgba(255, 255, 255, 0.8);
+//   border-radius: 0;
+//   color: #333;
+// }
+
+// .contact-form textarea {
+// height: 150px;
+// margin-top: 20px;
+// }
+
+// .contact-form input[type=submit] {
+// display: block;
+// width: 200px;
+// margin: 40px auto 0;
+// padding: 15px;
+// border: 1px solid rgba(255, 255, 255, 0.8);
+// border-radius: 5px;
+// background-color: transparent;
+// color: #fff;
+// cursor: pointer;
+// }
+
+// .contact-form input[type=submit]:hover {
+//   background-color: rgba(255, 255, 255, 0.05);
+// }
+
+.site-title-contact {
+  margin: 50px;
+  font-size: 4rem;
+}
+.site-description-contact01 {
+  margin: 50px;
+  font-size: 28px;
+}
+.site-description-contact02 {
+  font-size: 18px;
+}
